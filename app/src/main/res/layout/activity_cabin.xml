@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dip"
+    tools:context=".CabinActivity">
+
+    <ImageButton
+        android:id="@+id/cabinHatButton"
+        android:layout_width="200dip"
+        android:layout_height="75dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hat" />
+
+    <ImageButton
+        android:id="@+id/cabinGlassesButton"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/glasses"/>
+
+    <ImageButton
+        android:id="@+id/cabinUpperBodyButton"
+        android:layout_width="250dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/upperbody" />
+
+    <ImageButton
+        android:id="@+id/cabinLowerBodyButton"
+        android:layout_width="100dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/lowerbody"  />
+
+    <ImageButton
+        android:id="@+id/cabinFootButton"
+        android:layout_width="200dip"
+        android:layout_height="75dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/foot" />
+
+    <ImageButton
+        android:id="@+id/cabinSaveButton"
+        android:layout_width="200dip"
+        android:layout_height="50dip"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="50dip"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/save" />
+
+</LinearLayout>
